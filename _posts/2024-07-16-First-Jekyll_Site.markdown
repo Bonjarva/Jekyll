@@ -12,6 +12,7 @@ Step 1: Install the prerequisites
 3. GCC and Make: These are required to build native extensions for Ruby gems.
 
 I installed Ruby from https://rubyinstaller.org/ and followed the installer.
+
 Then added Ruby to my PATH
 
 ----------------
@@ -31,10 +32,10 @@ Step 4: Build the Site and Serve Locally
 	jekyll new my-portfolio
 	cd my-portfolio
 {% endhighlight %}
-
 Open http://localhost:4000 in your browser to see your new Jekyll site.
 ----------------
 Step 5: Push changes to Github Repository for hosting.
+- commit and push up to Github
 ----------------
 Step 6: Deploy to GitHub Pages
 1. Configure _config.yml for GitHub Pages:
