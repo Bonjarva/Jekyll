@@ -38,12 +38,11 @@ Step 6. Deploy to GitHub Pages
 	- Configure _config.yml for GitHub Pages:
 {% highlight yaml %}
 url: "https://<username>.github.io"
-baseurl: "/<repository>"  # Leave empty for user/organization sites
-
+baseurl: "/<repository>" 
 {% endhighlight %}
 
 	- Build Your Jekyll Site
-Before deploying, build your Jekyll site to generate the static HTML files:
+		Before deploying, build your Jekyll site to generate the static HTML files:
 {% highlight shell %}
 	bundle exec jekyll build
 {% endhighlight %}
