@@ -19,11 +19,13 @@ Step 2. Install Jekyll and Bundler
 {% highlight shell %}
 	gem install jekyll bundler
 {% endhighlight %}
+
 Step 3. Create a New Jekyll Site
 {% highlight shell %}
 	jekyll new my-portfolio
 	cd my-portfolio
 {% endhighlight %}
+
 Step 4. Build the Site and Serve Locally
 {% highlight shell %}
 	jekyll new my-portfolio
@@ -35,7 +37,9 @@ Open 'http://localhost:4000' in your browser to see your new Jekyll site.
 Step 5. Push changes to Github Repository for hosting.
 
 Step 6. Deploy to GitHub Pages.
+
 	6.1 Configure _config.yml for GitHub Pages:
+	
 {% highlight shell %}
 url: "https://<username>.github.io"
 baseurl: "/<repository>" 
@@ -43,6 +47,7 @@ baseurl: "/<repository>"
 
 	6.2 Build Your Jekyll Site
 	- Before deploying, build your Jekyll site to generate the static HTML files:
+
 {% highlight shell %}
 	bundle exec jekyll build
 {% endhighlight %}
@@ -51,11 +56,11 @@ baseurl: "/<repository>"
 
 	6.4 Deploy to GitHub Pages.
 
-	- Go to your GitHub repository on GitHub.com.
-	- Navigate to the repository's Settings tab.
-	- Scroll down to the GitHub Pages section.
-	- Under "Source", select the branch where your Jekyll site is hosted (main or master typically).
-	- If your Jekyll version is 4 or later, set the "Folder" option to /_site. If using an older version, leave it as root.
+		- Go to your GitHub repository on GitHub.com.
+		- Navigate to the repository's Settings tab.
+		- Scroll down to the GitHub Pages section.
+		- Under "Source", select the branch where your Jekyll site is hosted (main or master typically).
+		- If your Jekyll version is 4 or later, set the "Folder" option to /_site. If using an older version, leave it as root.
 
 	6.5 Access Your Deployed Site.
 
