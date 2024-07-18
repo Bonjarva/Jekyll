@@ -4,11 +4,11 @@ title: About
 permalink: /about/
 ---
 
-My name is Jaydin McMullan and I am a software developer from Dunedin, New Zealand.
+My name is Jaydin and I am a software developer from Dunedin, New Zealand.
 
 I studied at the University of Otago and graduated with a Bachelor of Applied Science, Majoring in Software Engineering and Computer Science.
 
-I have been living in Oslo, Norway  for about 10 months at the time of creating this initial project as a start to my own personal projects.
+I have been living in Oslo, Norway for about 10 months at the time of creating this initial project as a start to my own personal projects.
 
 This is going to be a start point to create an online portfolio.
 
