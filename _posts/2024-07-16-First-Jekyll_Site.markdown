@@ -38,23 +38,23 @@ Step 5. Push changes to Github Repository for hosting.
 
 Step 6. Deploy to GitHub Pages.
 
-1. Configure _config.yml for GitHub Pages:
+Step 6.1. Configure _config.yml for GitHub Pages:
 	
 {% highlight shell %}
 url: "https://<username>.github.io"
 baseurl: "/<repository>" 
 {% endhighlight %}
 
-2. Build Your Jekyll Site
+Step 6.2. Build Your Jekyll Site
 	Before deploying, build your Jekyll site to generate the static HTML files:
 
 {% highlight shell %}
 	bundle exec jekyll build
 {% endhighlight %}
 
-6.3 Commit and push to Github.
+Step 6.3. Commit and push to Github.
 
-6.4 Deploy to GitHub Pages.
+Step 6.4. Deploy to GitHub Pages.
 
 	- Go to your GitHub repository on GitHub.com.
 	- Navigate to the repository's Settings tab.
@@ -62,7 +62,7 @@ baseurl: "/<repository>"
 	- Under "Source", select the branch where your Jekyll site is hosted (main or master typically).
 	- If your Jekyll version is 4 or later, set the "Folder" option to /_site. If using an older version, leave it as root.
 
-Step 6.5 Access Your Deployed Site.
+Step 6.5. Access Your Deployed Site.
 
 Step 7 After configuring GitHub Pages, your site should be accessible at https://your-username.github.io/repository-name/. Replace "your-username" with your GitHub username and "repository-name" with your repository name.
 
